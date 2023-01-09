@@ -1,39 +1,39 @@
-## Content Modeling
+# Content Modeling
 
-### Core Content + Relationships
+## Core Content + Relationships
 
 *Review the project requirements and make a “model inventory.” What types of content are necessary for this project? How do they relate to each other?*
 
-#### Primitive Models
+### Primitive Models
 
-##### Speakers
+#### Speakers
 - Name
 - Image
 - Bio
 - Website, social media, etc
 
-##### Presentations
+#### Presentations
 - Name
 - Topic
 - Content (outline, key points)
 
-##### Venues
+#### Venues
 - City
 - Website
 
-##### Rooms
+#### Rooms
 - Venue
 
-#### Associative Models
+### Associative Models
 
-##### Session
+#### Session
 - Presentation
 - Venue
 - Room
 - Speaker
 - Time
 
-##### Schedule
+#### Schedule
 - Venue
 - Sessions
 
