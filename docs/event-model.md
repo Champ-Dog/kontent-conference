@@ -33,7 +33,7 @@ CTAs may also be reusable across channels. TO BE COMPLETED
 
 *Will more than one landing page be necessary for this project?*
 
-Not currently. In a "real world" scenario, this may indeed be necessary: we may want to present different content, or a different experience, for users of a digital assistant vs web browser.
+Not currently. In a "real world" scenario, this may indeed be necessary: we may want to present different content, or a different experience, for users of a digital assistant (for example) vs web browser.
 
 Currently the project includes only one delivery channel: a website under development as part of this project. However, content models should be divorced from delivery/front-end concerns as much as possible. If a content item is developed for an entry point ("landing page" is not recommended terminology, as it reflects a specific delivery channel), it should be as channel-agnostic as possible.
 
@@ -56,3 +56,5 @@ Similarly, thinking about the content that might be needed for the front page/s 
 *Could it work for IoT devices, voice-enabled digital assistants, and chatbots?*
 
 I've largely covered this above. As these questions are mostly to help with thinking and planning, and my responses are largely "thinking out loud," I don't see much value in straining the point.
+
+However, some of the CTAs discussed above may not work as well in particular channels. For example, and embedded map to plan a route isn't useful for a digital assistant, although an email form to receive more information might be.
