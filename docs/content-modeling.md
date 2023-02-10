@@ -79,3 +79,4 @@ Specifically to this project, stages I am interested in considering include:
 Taxonomy will be a useful tool to help surface the correct information - a Taxonomy Group for Customer Journey Stage with the relevant options would be a simple implementation of this.
 
 ![Customer Journey diagram with objectives and important content](images/customer-journey.png)
+
