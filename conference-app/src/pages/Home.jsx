@@ -1,7 +1,12 @@
-import { deliveryClient } from '../Client'
+import { deliveryClient } from "./Client";
 
-const hero = await deliveryClient.items()
-    .type('hero_image___landing_page')
+async function getHeroImage() {
+  const hero = await deliveryClient
+    .items()
+    .type("hero_image___landing_page")
     .toPromise();
 
-console.log(hero)
+  console.log(hero);
+}
+
+getHeroImage();
