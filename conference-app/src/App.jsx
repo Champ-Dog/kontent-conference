@@ -2,6 +2,19 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 
+import { deliveryClient } from "./Client";
+
+async function getHeroImage() {
+  const hero = await deliveryClient
+    .items()
+    .type("hero_image___landing_page")
+    .toPromise();
+
+  console.log(hero);
+}
+
+getHeroImage()
+
 function App() {
   const [count, setCount] = useState(0)
 
